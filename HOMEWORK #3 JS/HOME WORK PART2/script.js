@@ -1,8 +1,8 @@
 function humanToDogYears(hymanY){
-    let dogY=7;
+    let dogY=4;
     let result=(hymanY*dogY)
     console.log(result)
     let resultTwo=(result/dogY)
-    console.log(resultTwo)
+    console.log(Math.trunc (resultTwo))
 }
-humanToDogYears(8)
+humanToDogYears(14)
