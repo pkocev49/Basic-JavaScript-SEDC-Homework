@@ -24,6 +24,8 @@ if (year === 0) {
     console.log("dog")
 } else if (year === 11) {
     console.log("Pig")
+}else(year);{
+    console.log("Wrong input")
 }
 
 
