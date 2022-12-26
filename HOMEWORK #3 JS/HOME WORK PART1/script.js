@@ -1,35 +1,43 @@
-function nullExample(example) {
-    let parametar = example
-    console.log(parametar)
-    return parametar
+// function nullExample(example) {
+//     let parametar = example
+//     console.log(parametar)
+//     return parametar
     
+// }
+// nullExample(null)
+
+// function boolean(numOne, numTwo) {
+//     let parametar = numOne > numTwo
+//     console.log(parametar)
+// }
+// boolean(2, 3,)
+// boolean(5,3)
+
+// function number(numOne, numTwo) {
+//     let parametar = numOne + numTwo
+//     console.log(parametar)
+// }
+// number(5, 10)
+
+// function string(word) {
+//     let parametar = word
+//     console.log(parametar)
+// }
+// string("SEDC IS THE BEST")
+
+// function undef(exemple) {
+//     let parametar = exemple;
+//     console.log(parametar);
+// }
+// undef()
+
+function returnDiffType(parameter){
+    console.log(typeof parameter);
 }
-nullExample(null)
 
-function boolean(numOne, numTwo) {
-    let parametar = numOne > numTwo
-    console.log(parametar)
-}
-boolean(2, 3,)
-boolean(5,3)
-
-function number(numOne, numTwo) {
-    let parametar = numOne + numTwo
-    console.log(parametar)
-}
-number(5, 10)
-
-function string(word) {
-    let parametar = word
-    console.log(parametar)
-}
-string("SEDC IS THE BEST")
-
-function undef(exemple) {
-    let parametar = exemple;
-    console.log(parametar);
-}
-undef()
-
-
+returnDiffType({name: "Pavel"});
+returnDiffType(true);
+returnDiffType(5);
+returnDiffType("DOG");
+returnDiffType();
 
