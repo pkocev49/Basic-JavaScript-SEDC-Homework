@@ -37,16 +37,16 @@
 
 // // HOME WORK PART 3
 
-// const string = ["Hello", "there", "students", "of", "SEDC", "!"]
+const string = ["Hello", "there", "students", "of", "SEDC", "!"]
 
-// function text(string) {
-//     let bigString = " ";
-//     for (i = 0; i < string.length; i++) {
-//         bigString += string + " ";
-//     }
-//     return bigString
-// }
-// console.log(text(string))
+function text(string) {
+    let bigString = " ";
+    for (i = 0; i < string.length; i++) {
+        bigString += string[i] + " ";
+    }
+    return bigString
+}
+console.log(text(string))
 
 
 // HOME WORK PART 4
@@ -108,13 +108,13 @@
 // HOME WORK PART 6
 
 
-const firstName =["Bob", "Jill"]
-const lastName = ["Gregory", "Wurtz"]
+// const firstName =["Bob", "Jill"]
+// const lastName = ["Gregory", "Wurtz"]
 
-function fullName(){
-    for(i=0;i<firstName.length;i++){
-        console.log(` ${i + 1} ${firstName[i]} ${lastName[i]}`)
-    }
-}
+// function fullName(){
+//     for(i=0;i<firstName.length;i++){
+//         console.log(` ${i + 1} ${firstName[i]} ${lastName[i]}`)
+//     }
+// }
 
-fullName()
+// fullName()
