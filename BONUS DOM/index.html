@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery App</title>
+    <link rel="stylesheet" type="text/css" href="./app.css">
+</head>
+<body>
+    <header>
+        <h1>Grocery App</h1>
+    </header>
+    <main>
+        <div class="bigBox">
+        <div class="boxOne">
+           
+            <div class="smallBox">
+                <h1>Enter Recipe </h1>
+            <label for="name-of-recepi">Enter name of recipe</label>
+            <br>
+            <input type="text" name="nameofricepe" id="nameofrecipe">
+            <br>
+            <label for="numOfIng">Number of ingredients</label>
+            <br>
+            <input type="number" name="numOfIng" id="numOfIng" placeholder="Number cant be less than 0">
+            <br>
+            <label for="nameOfIng">Enter the name of every ingredient</label>
+            <br>
+            <input type="text" name="nameOfing" id="nameOfIng" placeholder="Enter here">
+				<ul id="myList"></ul>
+            <button onclick="createRecipe()" class="button">Add</button>
+        </div>
+        </div>
+        <div class="boxTwo">
+            <h1>Recipe name:</h1>
+            
+          <div class="recipe"></div>
+        </div>
+    </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

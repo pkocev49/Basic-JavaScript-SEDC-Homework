@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+.boxOne{
+    margin-top: 20px;
+    border: 5px solid black;
+    width: 600px;
+    height: 600px;
+   background-color: lightblue;
+    
+    box-shadow: 5px 5px;
+   
+}
+.smallBox{
+    margin-left: 5px;
+    
+    padding-top: 20px;
+   
+
+}
+label{
+    font-size: 21px;
+
+    
+}
+#nameofrecipe,
+#numOfIng,
+#nameOfIng{
+    width: 590px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+
+.button{
+    background-color: blueviolet;
+    width: 200px;
+    height: 40px;
+    box-shadow: 4px 4px;
+    margin: 25px;
+    margin-left: 0px;
+}
+.boxTwo{
+    margin-top: 20px;
+    border: 5px solid black;
+    width: 600px;
+    height: 600px;
+    background-color: lightblue;
+    box-shadow: 5px 5px;
+    margin-left: 100px;
+   
+}
+.bigBox{
+    display: flex;
+}
+.list{
+    
+    font-size: 30px;
+    margin-left: 15
+}
